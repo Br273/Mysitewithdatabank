@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.banner {
+    background: url('images/1.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.aulas, .instrumentos, .chat, .agendar-aula {
+    padding: 20px;
+    text-align: center;
+}
+
+.instrument-list, .product-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.instrument, .product {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+    width: 200px;
+}
+
+.instrument img {
+    width: 90px;
+}
+
+.product-list img {
+    width: 90px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+}

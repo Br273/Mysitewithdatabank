@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POPMúsic</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Loja e Escola de Música</div>
+        <nav>
+            <ul>
+                <li><a class="aulas">Início</a></li>
+                <li><a href="#">Aulas</a></li>
+                <li><a href="#">Instrumentos</a></li>
+                <li><a class="agendar-aula">Agendar Aulas</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="banner">
+            <h1>Aprenda e Compre Música Aqui!</h1>
+        </section>      
+
+            <section class="aulas">
+                <h2>Aulas de Instrumentos</h2>
+            <div class="instrument-list">
+                <div class="instrument">
+                    <img src="images/5.jfif">
+                    <h3>Piano</h3>
+                    <button onclick="enroll('Piano')">Inscreva-se</button>
+                </div>
+                <div class="instrument">
+                    <img src="images/guitarra.jfif">
+                    <h3>Guitarra</h3>
+                    <button onclick="enroll('Guitarra')">Inscreva-se</button>  
+                </div>
+                <div class="instrument">
+                    <img src="images/6.jfif">
+                    <h3>Bateria</h3>
+                    <button onclick="enroll('Bateria')">Inscreva-se</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="instrumentos">
+            <h2>Comprar Instrumentos</h2>
+            <div class="product-list">
+                <div class="product">       
+                    <img src="images/guitarraeletrica.png">
+                    <h3>Guitarra Elétrica</h3>
+                    <button onclick="buy('Guitarra Elétrica')">Ver Mais</button>
+                </div>
+                <div class="product">
+                    <img src="images/nord.png">
+                    <h3>Piano Digital</h3>
+                    <button onclick="buy('Piano Digital')">Ver Mais</button>
+                </div>
+                <div class="product">
+                    <img src="images/tashima.webp">
+                    <h3>Bateria Acústica</h3>
+                    <button onclick="buy('Violão Tagima 2006')">Ver Mais</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="chat">
+            <h2>Chat com Professores</h2>
+            <button onclick="openChat()">Abrir Chat</button>
+        </section>
+
+        <section class="agendar-aula">
+            <h2>Agendar Aulas Particulares</h2>
+            <button onclick="scheduleLesson()">Agendar Aula</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Loja e Escola de Música. Todos os direitos reservados.</p>
+        <div class="social">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
